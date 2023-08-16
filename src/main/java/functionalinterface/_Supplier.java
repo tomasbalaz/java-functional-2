@@ -1,6 +1,8 @@
 package functionalinterface;
 
 import java.util.List;
+import java.util.function.BooleanSupplier;
+import java.util.function.IntSupplier;
 import java.util.function.Supplier;
 
 public class _Supplier {
@@ -9,6 +11,9 @@ public class _Supplier {
         System.out.println(getDbConnectionUrl());
         System.out.println(getDbConnectionUrlBySupplier.get());
         System.out.println(getDbConnectionUrlsBySupplier.get());
+
+        System.out.println(intSupplier.getAsInt());
+        System.out.println(booleanSupplier.getAsBoolean());
     }
 
     static String getDbConnectionUrl() {
@@ -22,4 +27,8 @@ public class _Supplier {
             () -> List.of(
                     "jdbc://localhost:5432/users",
                     "jdbc://localhost:5432/users");
+
+    static IntSupplier intSupplier = () -> 1;
+
+    static BooleanSupplier booleanSupplier = () -> false;
 }
