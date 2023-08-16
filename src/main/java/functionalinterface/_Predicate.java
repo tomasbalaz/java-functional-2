@@ -1,6 +1,7 @@
 package functionalinterface;
 
 import java.util.function.BiPredicate;
+import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 
 public class _Predicate {
@@ -23,6 +24,8 @@ public class _Predicate {
 
         System.out.println(containsNumber3AndLengthIs4.test("0713", "0712"));
 
+        System.out.println(intPredicate.test(1));
+
     }
 
     static boolean isPhoneNumberValid(String phoneNumber ) {
@@ -37,4 +40,6 @@ public class _Predicate {
 
     static BiPredicate<String, String> containsNumber3AndLengthIs4 =
             (s1, s2) -> s1.contains("3") && s2.length() == 4;
+
+    static IntPredicate intPredicate = value -> value == 1;
 }
