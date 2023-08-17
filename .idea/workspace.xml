@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c62aa1f-df93-468f-bc48-6be50a530836" name="Changes" comment="Example how to use IntSupplier, BooleanSupplier">
-      <change afterPath="$PROJECT_DIR$/src/main/java/optional/_OptionalBasic.java" afterDir="false" />
+    <list default="true" id="5c62aa1f-df93-468f-bc48-6be50a530836" name="Changes" comment="Example how to use java.util.Optional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/_StreamBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/_StreamBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <recent name="sk.balaz.imperative" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._OptionalBasic">
+  <component name="RunManager" selected="Application._StreamBasic">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -169,9 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._StreamBasic" />
         <item itemvalue="Application._OptionalBasic" />
         <item itemvalue="Application._Predicate" />
-        <item itemvalue="Application._StreamBasic" />
         <item itemvalue="Application._Operator" />
         <item itemvalue="Application._Supplier" />
       </list>
@@ -195,7 +195,9 @@
       <workItem from="1691735696910" duration="984000" />
       <workItem from="1691753447971" duration="3419000" />
       <workItem from="1692173097492" duration="365000" />
-      <workItem from="1692191177077" duration="2189000" />
+      <workItem from="1692191177077" duration="2949000" />
+      <workItem from="1692256350950" duration="19000" />
+      <workItem from="1692276150971" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="Created java-functional apllication-2">
       <option name="closed" value="true" />
@@ -317,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692192284573</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Example how to use java.util.Optional">
+      <option name="closed" value="true" />
+      <created>1692193794441</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692193794441</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +360,7 @@
     <MESSAGE value="Example how to use UnaryOperator, BinaryOperator" />
     <MESSAGE value="Example how to use java.util.function.IntPredicate" />
     <MESSAGE value="Example how to use IntSupplier, BooleanSupplier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example how to use IntSupplier, BooleanSupplier" />
+    <MESSAGE value="Example how to use java.util.Optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example how to use java.util.Optional" />
   </component>
 </project>

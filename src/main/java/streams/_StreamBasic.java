@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import static streams.Person.Gender.FEMALE;
@@ -41,17 +42,31 @@ public class _StreamBasic {
                 .map(length)
                 .forEach(println);
 
-    }
+        Predicate<Person> personPredicate = person -> FEMALE.equals(person.gender());
+        boolean containsOnlyFemales = people.stream()
+                .allMatch(personPredicate);
+
+        System.out.println(containsOnlyFemales);
+
+        boolean containsOneFemale = people.stream()
+                .anyMatch(personPredicate);
+        System.out.println(containsOneFemale);
+
+        boolean containsNoneFemale = people.stream()
+                .noneMatch(personPredicate);
+        System.out.println(containsNoneFemale);
 
     }
 
-    record Person(
-            String name,
-            Person.Gender gender
-    ) {
+}
 
-        enum Gender {
-            MALE,
-            FEMALE
-        }
+record Person(
+        String name,
+        Person.Gender gender
+) {
+
+    enum Gender {
+        MALE,
+        FEMALE
+    }
 }
