@@ -1,0 +1,14 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.( á§éÿÿÿÿÿ
+Q
+java:S1612";Replace this lambda with method reference 'Person::gender'.(½¢Üù
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æÏû¾şÿÿÿÿ
+Q
+java:S1612 ";Replace this lambda with method reference 'Person::gender'.(½¢Üù
+[
+java:S1612""@Replace this lambda with method reference 'System.out::println'.(ÊïâÁøÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ÊïâÁøÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(Ëûğ…ûÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ø– À
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(Ø•
+M	java:S1069"9Replace this use of System.out or System.err by a logger.(øï£t

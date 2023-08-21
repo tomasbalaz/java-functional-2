@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c62aa1f-df93-468f-bc48-6be50a530836" name="Changes" comment="Example of CustomerValidatorService">
-      <change afterPath="$PROJECT_DIR$/src/main/java/finalsection/Main.java" afterDir="false" />
+    <list default="true" id="5c62aa1f-df93-468f-bc48-6be50a530836" name="Changes" comment="Example Stream callbacks like in JavaScript">
+      <change afterPath="$PROJECT_DIR$/src/main/java/finalsection/Lambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/finalsection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/finalsection/Callbacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,6 +39,16 @@
     &quot;assignee&quot;: &quot;tomasbalaz&quot;
   }
 }</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Example Stream callbacks like in JavaScript" />
+        <option name="rewordedMessage" value="Example functional callbacks like in JavaScript" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="ffcfa8f3b6d5f31fb9c80ef6a22df1ddd837458f" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -53,26 +64,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="sk.balaz.imperative" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.finalsection.Main">
+  <component name="RunManager" selected="Application.Lambdas">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -103,6 +115,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Callbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalsection.Callbacks" />
+      <module name="java-functional-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalsection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalsection.Lambdas" />
+      <module name="java-functional-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalsection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="combinatornpattern.Main" />
       <module name="java-functional-2" />
@@ -129,19 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalinterface._Predicate" />
-      <module name="java-functional-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functionalinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_StreamBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams._StreamBasic" />
       <module name="java-functional-2" />
@@ -155,26 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="finalsection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="finalsection.Main" />
-      <module name="java-functional-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="finalsection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.finalsection.Main" />
+        <item itemvalue="Application.Lambdas" />
+        <item itemvalue="Application.Callbacks" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application._StreamBasic" />
         <item itemvalue="Application._OptionalBasic" />
-        <item itemvalue="Application._Predicate" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +215,7 @@
       <workItem from="1692343537637" duration="19000" />
       <workItem from="1692361777987" duration="2347000" />
       <workItem from="1692601933351" duration="117000" />
-      <workItem from="1692621015104" duration="1222000" />
+      <workItem from="1692621015104" duration="2502000" />
     </task>
     <task id="LOCAL-00001" summary="Created java-functional apllication-2">
       <option name="closed" value="true" />
@@ -341,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692362786666</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Example Stream callbacks like in JavaScript">
+      <option name="closed" value="true" />
+      <created>1692622637089</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692622637089</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +396,7 @@
     <MESSAGE value="Example how to use IntSupplier, BooleanSupplier" />
     <MESSAGE value="Example how to use java.util.Optional" />
     <MESSAGE value="Example of CustomerValidatorService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example of CustomerValidatorService" />
+    <MESSAGE value="Example Stream callbacks like in JavaScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example Stream callbacks like in JavaScript" />
   </component>
 </project>
