@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c62aa1f-df93-468f-bc48-6be50a530836" name="Changes" comment="Example Stream callbacks like in JavaScript">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/info.txt" afterDir="false" />
+    <list default="true" id="5c62aa1f-df93-468f-bc48-6be50a530836" name="Changes" comment="Properties of functional programming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +214,8 @@
       <workItem from="1692361777987" duration="2347000" />
       <workItem from="1692601933351" duration="117000" />
       <workItem from="1692621015104" duration="2502000" />
-      <workItem from="1692623777273" duration="708000" />
+      <workItem from="1692623777273" duration="1014000" />
+      <workItem from="1692690052723" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Created java-functional apllication-2">
       <option name="closed" value="true" />
@@ -361,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692622637089</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Properties of functional programming">
+      <option name="closed" value="true" />
+      <created>1692624782425</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692624782425</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,6 +405,7 @@
     <MESSAGE value="Example how to use java.util.Optional" />
     <MESSAGE value="Example of CustomerValidatorService" />
     <MESSAGE value="Example Stream callbacks like in JavaScript" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example Stream callbacks like in JavaScript" />
+    <MESSAGE value="Properties of functional programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Properties of functional programming" />
   </component>
 </project>
